@@ -1,0 +1,9 @@
+.local/
+*.log
+*.tmp
+*.zip
+runtime.json
+state.json
+config.json
+STOP
+checkpoints/

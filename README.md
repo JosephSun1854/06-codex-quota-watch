@@ -1,4 +1,4 @@
-# Codex Quota Watch · 额度续接助手
+# 06 · Codex Quota Watch · 额度续接助手
 
 给定**任务名称**和**下次 5 小时额度重置时间**，监控 Windows 上的 ChatGPT / Codex 工作聊天，保存续接材料，并在额度恢复后继续确实因额度失败的任务。
 
@@ -26,8 +26,8 @@
 在 PowerShell 7 中运行：
 
 ```powershell
-git clone https://github.com/JosephSun1854/codex-quota-watch.git
-cd codex-quota-watch
+git clone https://github.com/JosephSun1854/06-codex-quota-watch.git
+cd 06-codex-quota-watch
 
 # 只需提供任务名称和下一次重置时间；配置后保持暂停。
 ./Watch-Quota.ps1 -Action Configure -TaskName '整理研究资料' -ResetAt '14:30'
